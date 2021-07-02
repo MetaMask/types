@@ -1,10 +1,10 @@
 {
-  "name": "@metamask/module-template",
-  "version": "0.0.0",
-  "description": "The MetaMask Node module template.",
+  "name": "@metamask/types",
+  "version": "1.0.0",
+  "description": "A collection of TypeScrupt types that are used in MetaMask projects",
   "repository": {
     "type": "git",
-    "url": "https://github.com/MetaMask/metamask-module-template.git"
+    "url": "https://github.com/MetaMask/types.git"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

@@ -1,22 +1,14 @@
-# MetaMask Module Template
+# MetaMask Types
 
-This TypeScript module is maintained in the style of the MetaMask team.
+This is a collection of types that are used in MetaMask projects.
 
 ## Installation
 
-`yarn add @metamask/this-module`
+`yarn add --dev @metamask/types`
 
 or
 
-`npm install @metamask/this-module`
-
-## Usage
-
-_Add examples here_
-
-## API
-
-_Add examples here_
+`npm install --save-dev @metamask/types`
 
 ## Contributing
 
