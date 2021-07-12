@@ -1,0 +1,6 @@
+{
+  "entryPoints": ["./src/index.d.ts"],
+  "excludeInternal": true,
+  "excludePrivate": true,
+  "out": "./docs"
+}
