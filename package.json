@@ -18,7 +18,8 @@
     "lint:misc": "prettier '**/*.json' '**/*.md' '!CHANGELOG.md' '**/*.yml' --ignore-path .gitignore",
     "lint": "yarn lint:eslint && yarn lint:misc --check",
     "lint:fix": "yarn lint:eslint --fix && yarn lint:misc --write",
-    "build": "tsc --noEmit --project ."
+    "build": "tsc --noEmit --project .",
+    "buildDocs": "typedoc"
   },
   "devDependencies": {
     "@lavamoat/allow-scripts": "^1.0.5",
@@ -35,6 +36,7 @@
     "prettier-plugin-packagejson": "^2.2.11",
     "rimraf": "^3.0.2",
     "tsd": "^0.17.0",
+    "typedoc": "^0.21.2",
     "typescript": "^4.2.4"
   },
   "engines": {

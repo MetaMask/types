@@ -70,3 +70,6 @@ node_modules/
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# TypeDoc output
+/docs
