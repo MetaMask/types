@@ -6,4 +6,12 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-[Unreleased]: https://github.com/MetaMask/types/
+## [1.0.0]
+### Added
+- Add `HexPrefixed` type ([#2](https://github.com/MetaMask/types/pull/2))
+- Add `Json` type ([#1](https://github.com/MetaMask/types/pull/1))
+- Add API documentation generator ([#4](https://github.com/MetaMask/types/pull/4))
+  - The API documentation still isn't hosted anywhere, but it can be built by checking out the repository, following the setup steps, then running `yarn buildDocs`.
+
+[Unreleased]: https://github.com/MetaMask/types/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/MetaMask/types/releases/tag/v1.0.0
