@@ -21,6 +21,9 @@
     "build": "tsc --noEmit --project .",
     "buildDocs": "typedoc"
   },
+  "dependencies": {
+    "json-rpc-engine": "^6.1.0"
+  },
   "devDependencies": {
     "@lavamoat/allow-scripts": "^1.0.5",
     "@metamask/auto-changelog": "^2.3.0",
@@ -50,8 +53,5 @@
     "allowScripts": {
       "@lavamoat/preinstall-always-fail": false
     }
-  },
-  "dependencies": {
-    "json-rpc-engine": "^6.1.0"
   }
 }
