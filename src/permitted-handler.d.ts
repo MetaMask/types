@@ -3,7 +3,7 @@ import type {
   JsonRpcEngineNextCallback,
   JsonRpcRequest,
   PendingJsonRpcResponse,
-} from 'json-rpc-engine';
+} from './json-rpc';
 
 /**
  * Makes every specified property of the specified object type mutable.
