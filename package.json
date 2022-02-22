@@ -50,5 +50,8 @@
     "allowScripts": {
       "@lavamoat/preinstall-always-fail": false
     }
+  },
+  "dependencies": {
+    "json-rpc-engine": "^6.1.0"
   }
 }
