@@ -7,12 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [Unreleased]
 
 ## [1.1.0]
-### Uncategorized
+### Added
 - Add PermissionController and JSON-RPC types ([#13](https://github.com/MetaMask/types/pull/13))
-- Bump tar from 6.1.5 to 6.1.11 ([#12](https://github.com/MetaMask/types/pull/12))
-- Bump path-parse from 1.0.6 to 1.0.7 ([#11](https://github.com/MetaMask/types/pull/11))
-- Bump @metamask/auto-changelog from 2.4.0 to 2.5.0 ([#9](https://github.com/MetaMask/types/pull/9))
-- Bump tar from 6.1.0 to 6.1.5 ([#10](https://github.com/MetaMask/types/pull/10))
 
 ## [1.0.0]
 ### Added
