@@ -1,6 +1,6 @@
 {
   "name": "@metamask/types",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A collection of TypeScrupt types that are used in MetaMask projects",
   "repository": {
     "type": "git",
