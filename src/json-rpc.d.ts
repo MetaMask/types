@@ -49,10 +49,13 @@ export interface JsonRpcFailure extends JsonRpcResponseBase {
 
 export type JsonRpcResponse<T> = JsonRpcSuccess<T> | JsonRpcFailure;
 
-export interface PendingJsonRpcResponse<T> extends JsonRpcResponseBase {
-  result?: T;
-  error?: Error | JsonRpcError;
-}
+export type PendingJsonRpcResponse<Result> = Omit<
+  JsonRpcResponse<Result>,
+  'error' | 'result'
+> & {
+  result?: Result;
+  error?: JsonRpcError;
+};
 
 export type JsonRpcEngineCallbackError = Error | JsonRpcError | null;
 
@@ -68,9 +71,12 @@ export type JsonRpcEngineEndCallback = (
   error?: JsonRpcEngineCallbackError,
 ) => void;
 
-export type JsonRpcMiddleware<T, U> = (
-  req: JsonRpcRequest<T>,
-  res: PendingJsonRpcResponse<U>,
-  next: JsonRpcEngineNextCallback,
-  end: JsonRpcEngineEndCallback,
-) => void;
+export interface JsonRpcMiddleware<Params, Result> {
+  (
+    req: JsonRpcRequest<Params>,
+    res: PendingJsonRpcResponse<Result>,
+    next: JsonRpcEngineNextCallback,
+    end: JsonRpcEngineEndCallback,
+  ): void;
+  destroy?: () => void | Promise<void>;
+}
