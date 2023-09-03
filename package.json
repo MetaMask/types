@@ -21,6 +21,10 @@
     "build": "tsc --noEmit --project .",
     "buildDocs": "typedoc"
   },
+  "dependencies": {
+    "@ethereumjs/tx": "^3.2.1",
+    "eth-sig-util": "^3.0.1"
+  },
   "devDependencies": {
     "@lavamoat/allow-scripts": "^1.0.5",
     "@metamask/auto-changelog": "^2.3.0",
@@ -48,7 +52,9 @@
   },
   "lavamoat": {
     "allowScripts": {
-      "@lavamoat/preinstall-always-fail": false
+      "@lavamoat/preinstall-always-fail": false,
+      "keccak": false,
+      "secp256k1": false
     }
   }
 }
