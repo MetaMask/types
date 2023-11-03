@@ -1,5 +1,9 @@
 # MetaMask Types
 
+<table><tr><td><p><b>⚠️ PLEASE READ ⚠️</b></p></td></tr><tr><td><p>The contents of this package have been integrated into <a href="https://github.com/MetaMask/utils"><code>@metamask/utils</code></a>.</p><p>Please use this package going forward instead of <code>@metamask/types</code>.</p></td></tr></table>
+
+---
+
 This is a collection of types that are used in MetaMask projects.
 
 ## Installation
